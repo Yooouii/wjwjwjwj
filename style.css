@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+background-color: red;
+position: relative;
+animation-name: SKA;
+animation-duration: 4s;
+align-items: center;
+animation-iteration-count: infinite;
+}
+@keyframes SKA{
+    0%{
+        width: 200px;
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+25%{
+
+width: 200px;
+
+background-color: rgb(255, 252, 47);
+
+Left: 400px;
+
+top: 0px;
+
+}
+
+50%{
+
+width: 200px;
+
+background-color: rgb(144, 47, 255);
+
+Left: 400px;
+
+top: 400px;
+
+}
+
+75%{
+
+width: 200px;
+
+background-color: greenyellow;
+
+Left: 0px;
+
+top: 400px;
+
+}
+100%{
+
+width: 200px;
+
+background-color: rgb(89, 47, 255);
+
+Left: 0px;
+
+top: 0px;
+
+}
+}
+
+
+
+
+
+
